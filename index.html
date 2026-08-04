@@ -138,9 +138,29 @@
                     Kazekage da Vila da Areia e antigo Jinchuuriki do Shukaku.
                 </p>
 
-                <a href="gaara.html" class="botao">Ver Perfil</a>
+                <a href="gaara.html" class="botao" onclick="alerta(event)">
+                    Ver Perfil
+                </a>
 
             </div>
+
+        </section>
+
+        <section class="formulario">
+
+            <h2>Qual é o seu personagem favorito?</h2>
+
+            <form onsubmit="mostrarPersonagem(event)">
+
+                <input
+                    type="text" id="personagem" placeholder="Digite o nome do personagem" required>
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+            <p id="resposta"></p>
 
         </section>
 
@@ -153,7 +173,7 @@
         </p>
 
     </footer>
-
+<script src="script.js"></script>
 </body>
 
 </html>
