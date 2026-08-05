@@ -3,6 +3,17 @@ function alerta()
     alert("Você clicou em Ver Perfil!");
 }
 
+/* EXERCICO II */
+
+function mostrarCuriosidade() {
+
+    document.getElementById("textoCuriosidade").innerText =
+        "Curiosidade: Naruto Uzumaki foi o primeiro personagem criado por Masashi Kishimoto para a série.";
+
+}
+
+
+/* EXERCICO III */
 function mostrarPersonagem(event) {
 
     event.preventDefault();

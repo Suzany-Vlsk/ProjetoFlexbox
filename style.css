@@ -199,6 +199,53 @@ footer p{
     font-size:22px;
     text-shadow:0 0 8px rgba(255,60,0,.5);
 }
+.curiosidade{
+    width:95%;
+    max-width:750px;
+    margin:50px auto;
+    padding:30px;
+    background:#2b2b2b;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+}
+
+.curiosidade h2{
+    font-family:'Bebas Neue', sans-serif;
+    color:#ff7b00;
+    font-size:32px;
+    letter-spacing:1px;
+    margin-bottom:20px;
+}
+
+.curiosidade p{
+    color:#ff7b00;
+    font-size:20px;
+    font-weight:bold;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.curiosidade button{
+    background:#ff7b00;
+    color:#fff;
+    border:none;
+    padding:12px 30px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.curiosidade button:hover{
+    background:#ff9900;
+    transform:translateY(-3px);
+}
+
+.curiosidade button:active{
+    transform:scale(.95);
+}
 
 @media(max-width:900px){
 
