@@ -129,63 +129,58 @@
             </div>
 
             <div class="card">
-
                 <img src="imagens/gaara.png" alt="Gaara">
-
                 <h2>Gaara</h2>
-
                 <p>
                     Kazekage da Vila da Areia e antigo Jinchuuriki do Shukaku.
                 </p>
-
-                <a href="gaara.html" class="botao" onclick="alerta(event)">
-                    Ver Perfil
-                </a>
-
+                <!-- EXERCICO I -->
+                <a href="gaara.html" class="botao" onclick="alerta(event)">Ver Perfil</a>
             </div>
-
         </section>
+
+
+       <!-- EXERCICO II -->
 
         <section class="formulario">
-
             <h2>Qual é o seu personagem favorito?</h2>
-
             <form onsubmit="mostrarPersonagem(event)">
-
-                <input
-                    type="text" id="personagem" placeholder="Digite o nome do personagem" required>
-                <button type="submit">
-                    Enviar
-                </button>
-
+                <input type="text" id="personagem" placeholder="Digite o nome do personagem" required>
+                <button type="submit">Enviar</button>
             </form>
-
             <p id="resposta"></p>
-
         </section>
 
+        <!-- EXERCICO III -->
         <section class="curiosidade">
-
             <h2>Curiosidade sobre Naruto</h2>
-
             <p id="textoCuriosidade">
                 Clique no botão para descobrir uma curiosidade sobre Naruto Shippuden.
             </p>
-
-            <button onclick="mostrarCuriosidade()">
-                Mostrar Curiosidade
-            </button>
-
+            <button onclick="mostrarCuriosidade()">Mostrar Curiosidade</button>
         </section>
+
+        <!-- EXERCICO IV -->
+
+        <section class="calculo">
+    <h2>Calculadora de Pontos Ninja</h2>
+    <p>
+        Descubra quantos pontos seu ninja pode conquistar!
+    </p>
+    <div class="campos-calculo">
+        <input type="number" id="missoes" placeholder="Quantidade de missões">
+        <input type="number" id="pontos" placeholder="Pontos por missão">
+        <button onclick="calcularPontos()">Calcular Pontos</button>
+    </div>
+    <p id="resultadoPontos"></p>
+</section>
 
     </main>
 
     <footer>
-
         <p>
             Galeria Naruto Shippuden
         </p>
-
     </footer>
 <script src="script.js"></script>
 </body>
